@@ -1,0 +1,28 @@
+# Node dependencies
+node_modules
+app/node_modules
+
+# Build output
+dist
+app/dist
+
+# Git
+.git
+.gitignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+
+# Terraform (not needed in image)
+terraform/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+
+# Docker logs
+docker/*.log
